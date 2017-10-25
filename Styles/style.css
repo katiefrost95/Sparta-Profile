@@ -1,13 +1,21 @@
+.navbar-brand {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+body {
+  background-color: #efeff5;
+}
 .container {
-  width: 100%;
+  width: 100%px;
   height:900px;
-  background-color: red;
-  margin:auto;
+  left: 0;
+  margin:0 auto;\
 }
 
 header {
-  background-color: white;
-  padding: 50px;
+  background-image: url("https://cdn.londonandpartners.com/visit/general-london/areas/77954-640x360-london_eye_housesofparliament_skyline_640.jpg");
+  background-size: cover;
+  padding: 130px;
   margin:auto;
 }
 header img {
@@ -22,24 +30,75 @@ header img {
   display:inline-block;
   text-align: center;
   margin-left: 300px;
+  color: white;
 }
 main {
-  background-color: blue;
   padding: 50px;
   text-align: center;
 }
 .About {
-  background-color: grey;
+  background-color: #efeff5;
   padding: 50px;
   text-align: center;
 }
+.text_container {
+  /*border: 4px solid black;
+  border-radius: 5px;*/
+  padding: 40px;
+  background-color: white;
+}
 .Experience {
-  background-color: pink;
+  background-color: #efeff5;
   padding: 50px;
   text-align: center;
 }
 footer {
-  background-color: yellow;
+  background-color: #333333;
   padding: 50px;
   text-align: center;
+  color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+/*Footer icon positioning*/
+
+.container_Icons {
+  margin-left: 480px;
+}
+
+.container_Icons ul {
+  list-style-type: none;
+}
+#facebook {
+	position: relative;
+	float: left;
+  bottom: 55px;
+  padding-right: 0px;
+}
+#Twitter {
+	position: relative;
+	float: left;
+	bottom: 42px;
+}
+#instagram {
+	position: relative;
+	float: left;
+	bottom: 44px;
+	padding-left: 15px;
+
+  /*text styling*/
+  .footerfont {
+  	/*font-size: .9em;*/
+  	color: #a6a6a6;
+  	line-height: 1.8;
+  	font-family: sans-serif;
+  }
+  .footerheads {
+  	color: white;
+  	font-family: Helvetica Neue;
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
 }
