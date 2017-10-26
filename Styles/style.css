@@ -3,7 +3,7 @@
 	font-family: sans-serif;
 }
 .bg-dark {
-	background-color: #441a02;
+	background-color: #441a02 !important;
 }
 body {
   background-color: white;
@@ -27,8 +27,9 @@ header img {
   height: 100px;
   display: block;
 	margin: auto;
-	border: 5px solid white;
+	border: 5px solid black;
 	border-radius: 25px;
+	visibility: hidden;
 }
 .header_content {
 	text-align: center;
@@ -57,11 +58,14 @@ main {
 .text_container {
   padding: 40px;
   background-color: white;
+	font-size: 18px;
+	margin: 0 20px;
 }
 .Experience {
   background-color:white;
   padding: 0 50px 50px 50px;
   text-align: center;
+	margin-bottom: 0;
 }
 #html {
 	display: inline-block;
@@ -117,21 +121,30 @@ h3 {
 }
 
   /*footer text styling*/
-  .footerfont {
+.footerfont {
   	color: #a6a6a6;
   	line-height: 1.8;
   	font-family: sans-serif;
   }
-  .footerheads {
+.footerheads {
   	color: white;
   	font-family: Helvetica Neue;
-
-@media screen and (max-width: 400px) {
-	.header {
-		width: 100%;
-		background-size: cover;
+}
+#html {
+	margin-right: 20px;
+}
+@media only screen and (max-width: 400px) {
+	header {
+			width: 100%;
+			background-image: cover;
 	}
 	.container {
     width: 100%;
   }
+	.para_about {
+		width:
+	}
+	.about_tech {
+		display: none;
+	}
 }
