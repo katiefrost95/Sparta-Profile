@@ -3,7 +3,7 @@
 	font-family: sans-serif;
 }
 body {
-  background-color: #efeff5;
+  background-color: white;
 }
 .container {
   width: 100%px;
@@ -37,7 +37,7 @@ main {
   text-align: center;
 }
 .About {
-  background-color: #efeff5;
+  background-color: white;
   padding: 50px;
   text-align: center;
 }
@@ -48,9 +48,16 @@ main {
   background-color: white;
 }
 .Experience {
-  background-color: #efeff5;
+  background-color:white;
   padding: 50px;
   text-align: center;
+}
+
+h3 {
+  border: 1px solid black;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 30px;
 }
 footer {
   background-color: #333333;
@@ -86,9 +93,8 @@ footer {
 	bottom: 44px;
 	padding-left: 15px;
 
-  /*text styling*/
+  /*footer text styling*/
   .footerfont {
-  	/*font-size: .9em;*/
   	color: #a6a6a6;
   	line-height: 1.8;
   	font-family: sans-serif;
