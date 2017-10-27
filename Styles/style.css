@@ -1,0 +1,150 @@
+.navbar-brand {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.bg-dark {
+	background-color: #441a02 !important;
+}
+body {
+  background-color: white;
+}
+.container {
+  width: 100%;
+  height:900px;
+  left: 0;
+  margin:0 auto;\
+}
+
+header {
+  background-image: url("../Images/nature-background.png");
+  background-size: cover;
+  padding: 130px;
+  margin:auto;
+	height: 680px;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  display: block;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 25px;
+	visibility: hidden;
+}
+.header_content {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 25px;
+}
+h1 {
+	font-weight: bold;
+}
+.text {
+  margin-top: 30px;
+  display:inline-block;
+  text-align: center;
+  color: white;
+	font-family: sans-serif;
+}
+main {
+  padding: 50px;
+  text-align: center;
+}
+.About {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+.text_container {
+  padding: 40px;
+  background-color: white;
+	font-size: 18px;
+	margin: 0 20px;
+}
+.Experience {
+  background-color:white;
+  padding: 0 50px 50px 50px;
+  text-align: center;
+	margin-bottom: 0;
+}
+#html {
+	display: inline-block;
+  padding-right: 0px;
+}
+#css {
+	display: inline-block;
+}
+#javascript {
+	display: inline-block;
+	padding-left: 15px;
+}
+#ruby {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+h3 {
+  border: 3px solid black;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 30px;
+}
+.footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 400px;
+  background-color: #441a02;
+  padding: 50px;
+  text-align: center;
+  color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+/*Footer icon positioning*/
+
+.container_Icons {
+	height: 50px;
+}
+
+#facebook {
+	display: inline-block;
+  padding-right: 0px;
+}
+#Twitter {
+	display: inline-block;
+}
+#instagram {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+  /*footer text styling*/
+.footerfont {
+  	color: #a6a6a6;
+  	line-height: 1.8;
+  	font-family: sans-serif;
+  }
+.footerheads {
+  	color: white;
+  	font-family: Helvetica Neue;
+}
+#html {
+	margin-right: 20px;
+}
+@media only screen and (max-width: 480px) {
+	header {
+			width: 100%;
+			background-image: cover;
+	}
+	.container {
+    width: 100%;
+  }
+	.para_about {
+		width:
+	}
+	.about_tech {
+		display: none;
+	}
+}
